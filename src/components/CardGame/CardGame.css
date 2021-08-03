@@ -1,0 +1,19 @@
+img {
+  width:170px
+}
+
+.game {
+  display:flex;
+  flex-direction:column;
+}
+
+.game :first-child, .game :nth-child(2) {
+  align-self:center;
+  margin-bottom:10px;
+}
+
+.grid {
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap:10px
+}
